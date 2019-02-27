@@ -1,0 +1,125 @@
+.myInput {
+    box-sizing: border-box;
+    font-size: 1.1em;
+    padding: 1% 2%;
+    border: none;    
+    flex-basis: 93%;  
+    align-self: center;
+    opacity: 0.3;
+    
+}
+  
+.myInput:focus {
+    opacity: 1;
+}
+
+.searchBar {
+    padding: 1% 2%;
+    width: 100%;
+    background-image: linear-gradient(141deg, #ff690f 0%, #e8381b 50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main button {
+    margin-top: 15%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+.dropdownContent {
+    position: absolute;
+    width: 100%;
+    overflow: visible;
+    z-index: 1;
+
+  }
+  
+.dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;   
+    line-height: 0%;
+}
+
+.dropdownContent a p {
+    font-size: 0.8em;
+}
+.dropdown a:hover {background-color: #ddd;}
+
+.movieDetails {
+    display: flex;
+    flex-direction: row;
+}
+
+.movieList {
+    display: block;    
+    margin: 0 auto;
+    width: 90%;
+    background-color: white;
+    -webkit-box-shadow: 3px 5px 13px 6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 5px 13px 6px rgba(0,0,0,0.5);
+    box-shadow: 3px 5px 13px 6px rgba(0,0,0,0.5);
+}
+.movie {
+    margin-top: 6%;
+}
+
+.main {
+   width: 90%;
+   height: 100%;
+   margin: 0 auto;
+   background-color: white;
+}
+
+.movieTitle {
+    text-align: center;
+}
+
+.movieInfo {
+    flex-basis: 60%;
+    display: flex;
+}
+
+.movieImage {
+    flex-basis: 40%;
+    display: flex;
+}
+
+.movieImage img {
+    margin: 0 auto;
+}
+
+.movieInfo div {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.movieInfo p {
+    font-size: 1.2em;
+    line-height: 1.7em;
+}
+
+.playerSvg {
+    flex-basis: 2%;  
+    align-self: center;
+    fill: white;
+}
+
+.searchSvg {
+    flex-basis: 3%;  
+    align-self: center;
+    background-color: white;
+    fill:  #e8381b;
+    padding: 0.5%;    
+}
+
+.hide {
+    display: none;
+}
